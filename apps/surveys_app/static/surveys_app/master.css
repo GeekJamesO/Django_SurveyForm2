@@ -1,1 +1,44 @@
-body { background-color:pink }
+* {
+    display: inline-block;
+}
+body {
+    border: 2px solid black;
+    margin: 4px;
+}
+.CounterArea {
+    background-color: mint;
+    display: block;
+}
+.container {
+    border: 2px solid black;
+    margin: 15px 145px
+}
+
+.inputGroup {
+    width:60%;
+    display:block;
+}
+label {
+    display:inline-block;
+}
+select {
+    display:inline-block;
+}
+.CommentLabel {
+    display:block;
+}
+textarea {
+    display:block;
+}
+.ButtonSpacer {
+    width:60%;
+    display:inline-block;
+}
+button {
+    background-color: blue;
+    color:white;
+    box-shadow: 10px 10px 3px black;
+}
+p {
+    display:block;
+}

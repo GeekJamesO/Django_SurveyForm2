@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Results</title>
+        <link rel="stylesheet" href="/static/SurveyForm_app/master.css">
+    </head>
+    <body>
+        <div class="CounterArea">
+            <p>Thanks for submitting this form!  You have submitted this form {{request.session.counter}} times now.</p>
+        </div>
+        Your Name: {{request.session.yourName}}<br>
+        Dojo: {{request.session.dojoLocation}}<br>
+        Favorite Language: {{request.session.favLang}}<br>
+        Comment: {{request.session.comment}}<br>
+        <a href="/">New Entry</a>
+    </body>
+</html>
